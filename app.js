@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');
 var app = express();
 var jsonfile = require('jsonfile');
 
-var Pair = require('./lib/pair');
 var Testcase = require('./lib/testcase');
+var Pair = require('./lib/pair');
 var allValues = require('./allValues');
 var allPairs = require('./allPairs');
 var allCombinations = require('./allCombinations');
